@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
  }
  `;
 
+//  This is the root component of the application. It is used to wrap the entire application with the CartContextProvider.
 export default function App({ Component, pageProps }) {
   return (
     <>
